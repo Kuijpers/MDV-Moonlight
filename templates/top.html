@@ -1,0 +1,21 @@
+<div class="top">
+<?php        
+        
+	if ($currentFile !== "index.php")
+		{
+?>
+				<div class="switch">
+<?php
+					if ($webpart == "stable"){echo "<a href='shop.php' class='switch'>Shop</a>";}
+                    if ($webpart == "shop"){echo "<a href='home.php' class='switch'>Stable</a>";}
+?>            	</div>
+            	<div class="menublock">
+            		<div class="menu">
+                		<span class="menu">&nbsp;</span>
+            		
+                	</div>
+            	</div>
+<?php
+		}
+?>
+        </div>

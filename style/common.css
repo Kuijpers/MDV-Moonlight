@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+	text-align			:	center;
+	height				:	101%;
+	margin				:	0px;
+	padding				:	0px;
+	background-image	:	url(../images/body_bg.png);
+	background-repeat	:	repeat;
+	background-attachment:	fixed;
+	color				:	#ffff99;
+}
+
+div.container{
+	width				:	1150px;
+	height				:	225px;
+	min-height			:	100%;
+	margin				:	0px auto;
+	padding				:	0px;
+	float				:	none;
+	background-image	:	url(../images/container_bg.png);
+	background-repeat	:	repeat-y;
+}
+
+div.top{
+	width				:	1116px;
+	height				:	185px;
+	margin				:	0 0 0 0;
+	margin-left			:	17px;
+	margin-top			:	95px;
+	float				:	left;
+}
+
+div.switch{
+	width				:	116px;
+	height				:	35px;
+	float				:	right;
+	margin-right		:	50px;
+	display				:	block;
+	background-image	:	url(../images/switch.png);
+	background-repeat	:	no-repeat;
+	line-height			:	35px;
+	font-size			:	26px;
+	font-family			:	Arial, Helvetica, sans-serif;
+	color				:	#322f27;
+}
+
+a.switch{
+	color				:	#322f27;
+	text-decoration		:	none;
+}
+
+div.menublock{
+	width				:	1116px;
+	height				:	150px;
+	float				:	right;
+}
+
+div.menu{
+	width				:	725px;
+	height				:	150px;
+	float				:	right;
+	background-image	:	url(../images/menu_bg.png);
+	background-repeat	:	repeat;
+}
+
+span.menu{
+	width				:	40px;
+	height				:	152px;
+	float				:	left;
+	margin-left			:	-15px;
+	margin-top			:	-1px;
+	background-image	:	url(../images/menu_span.png);
+	background-repeat	:	no-repeat;
+}
+
+div.center_body{
+	width				:	1150px;
+	height				:	auto;
+	min-height			:	250px;
+	margin				:	0 0 0 0;
+	margin-top			:	35px;
+	float				:	left;
+	text-align			:	left;
+	background-image	:	url(../images/container_bg.png);
+	background-repeat	:	repeat-y;
+	*margin-top			:	50px; /*IE7 HACK*/
+}
+
+div.textfield{
+	width				:	1100px;
+	height				:	auto;
+	margin-left			:	25px;
+	float				:	left;
+}
+
+div.lang{
+	width				:	725px;
+	height				:	150px;
+	float				:	right;
+	margin-right		:	-8px;
+	margin-top			:	55px;
+	background-image	:	url(../images/menu_bg.png);
+	background-repeat	:	repeat;
+}
+
+span.lang{
+	width				:	40px;
+	height				:	152px;
+	float				:	left;
+	margin-left			:	-15px;
+	margin-top			:	-1px;
+	background-image	:	url(../images/menu_span.png);
+	background-repeat	:	no-repeat;
+}
+
+div.flag{
+	width				:	38px;
+	height				:	auto;
+	margin-top			:	25px;
+	margin-right		:	35px;
+	float				:	right;
+	text-align			:	center;
+}
+
+div.part{
+	width				:	500px;
+	height				:	auto;
+	margin-top			:	25px;
+	margin-right		:	25px;
+	float				:	right;
+	text-align			:	right;
+	font-size			:	26px;
+	font-family			:	Arial, Helvetica, sans-serif;
+}
+
+div.footer{
+	width				:	1150px;
+	height				:	40px;
+	margin				:	0 0 0 0;
+	float				:	left;
+	text-align			:	center;
+	background-image	:	url(../images/container_bg.png);
+	background-repeat	:	repeat-y;
+}
+
+
+span.logo{
+	width				:	400px;
+	height				:	300px;	
+	float				:	left;
+	margin-top			:	-300px;
+	margin-left			:	-50px;
+	margin-right		:	15px;
+	margin-bottom		:	15px;
+	*margin-top			:	-315px; /*IE7 HACK*/
+}
+
+img.lang{
+	border				:	none;	
+}
+
+.title{
+	text-align			:	center;	
+}
